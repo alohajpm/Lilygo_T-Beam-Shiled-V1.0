@@ -74,14 +74,14 @@ Go to Tools > Manage Libraries and install:
 1. Select the correct board in Arduino IDE:
    - Tools > Board > ESP32 Arduino > TTGO T-Beam
 2. Set the following options:
-   - Upload Speed: 921600
+   - Upload Speed: 115200
    - CPU Frequency: 240MHz
    - Flash Frequency: 80MHz
    - Flash Mode: QIO
-   - Flash Size: 4MB
+   - Flash Size: 16MB
    - Partition Scheme: Default
    - Core Debug Level: None
-   - PSRAM: Disabled
+   - PSRAM: Enabled
 
 ### 5. Upload the Code
 1. Clone or download the project files
